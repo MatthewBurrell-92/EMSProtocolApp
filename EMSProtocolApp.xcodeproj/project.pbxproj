@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29F35AB82D45C07300979BA5 /* EMSProtocolAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F35AB72D45C07300979BA5 /* EMSProtocolAppApp.swift */; };
+		29F35ABA2D45C07300979BA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F35AB92D45C07300979BA5 /* ContentView.swift */; };
+		29F35ABC2D45C07300979BA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F35ABB2D45C07300979BA5 /* Assets.xcassets */; };
+		29F35ABF2D45C07300979BA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F35ABE2D45C07300979BA5 /* Preview Assets.xcassets */; };
+		29F35AF42D45C0F500979BA5 /* DrugCalculationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F35AC52D45C0F500979BA5 /* DrugCalculationsView.swift */; };
+		29F35AF52D45C0F500979BA5 /* EMSProtocolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F35AC62D45C0F500979BA5 /* EMSProtocolsView.swift */; };
+		29F35AF62D45C0F500979BA5 /* EMSTreatmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F35AC72D45C0F500979BA5 /* EMSTreatmentView.swift */; };
+		29F35AF72D45C0F500979BA5 /* EMSProtocols.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AC82D45C0F500979BA5 /* EMSProtocols.pdf */; };
+		29F35AF82D45C0F500979BA5 /* EMSProceduresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F35ACA2D45C0F500979BA5 /* EMSProceduresView.swift */; };
+		29F35AF92D45C0F500979BA5 /* MedicationPDFsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F35ACB2D45C0F500979BA5 /* MedicationPDFsView.swift */; };
+		29F35AFA2D45C0F500979BA5 /* adenosine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35ACC2D45C0F500979BA5 /* adenosine.pdf */; };
+		29F35AFB2D45C0F500979BA5 /* albuterol.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35ACD2D45C0F500979BA5 /* albuterol.pdf */; };
+		29F35AFC2D45C0F500979BA5 /* amiodarone.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35ACE2D45C0F500979BA5 /* amiodarone.pdf */; };
+		29F35AFD2D45C0F500979BA5 /* aspirin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35ACF2D45C0F500979BA5 /* aspirin.pdf */; };
+		29F35AFE2D45C0F500979BA5 /* ativan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AD02D45C0F500979BA5 /* ativan.pdf */; };
+		29F35AFF2D45C0F500979BA5 /* atropine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AD12D45C0F500979BA5 /* atropine.pdf */; };
+		29F35B002D45C0F500979BA5 /* atrovent.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AD22D45C0F500979BA5 /* atrovent.pdf */; };
+		29F35B012D45C0F500979BA5 /* calcium.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AD32D45C0F500979BA5 /* calcium.pdf */; };
+		29F35B022D45C0F500979BA5 /* cefazolin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AD42D45C0F500979BA5 /* cefazolin.pdf */; };
+		29F35B032D45C0F500979BA5 /* d10.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AD52D45C0F500979BA5 /* d10.pdf */; };
+		29F35B042D45C0F500979BA5 /* dexamethasone.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AD62D45C0F500979BA5 /* dexamethasone.pdf */; };
+		29F35B052D45C0F500979BA5 /* diltiazem.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AD72D45C0F500979BA5 /* diltiazem.pdf */; };
+		29F35B062D45C0F500979BA5 /* diphenhydramine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AD82D45C0F500979BA5 /* diphenhydramine.pdf */; };
+		29F35B072D45C0F500979BA5 /* epinephrine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AD92D45C0F500979BA5 /* epinephrine.pdf */; };
+		29F35B082D45C0F500979BA5 /* etomidate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35ADA2D45C0F500979BA5 /* etomidate.pdf */; };
+		29F35B092D45C0F500979BA5 /* fentanyl.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35ADB2D45C0F500979BA5 /* fentanyl.pdf */; };
+		29F35B0A2D45C0F500979BA5 /* glucose.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35ADC2D45C0F500979BA5 /* glucose.pdf */; };
+		29F35B0B2D45C0F500979BA5 /* hydromorphone.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35ADD2D45C0F500979BA5 /* hydromorphone.pdf */; };
+		29F35B0C2D45C0F500979BA5 /* ketamine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35ADE2D45C0F500979BA5 /* ketamine.pdf */; };
+		29F35B0D2D45C0F500979BA5 /* labetalol.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35ADF2D45C0F500979BA5 /* labetalol.pdf */; };
+		29F35B0E2D45C0F500979BA5 /* magnesiumSulfate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AE02D45C0F500979BA5 /* magnesiumSulfate.pdf */; };
+		29F35B0F2D45C0F500979BA5 /* methylprednisolone.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AE12D45C0F500979BA5 /* methylprednisolone.pdf */; };
+		29F35B102D45C0F500979BA5 /* midazolam.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AE22D45C0F500979BA5 /* midazolam.pdf */; };
+		29F35B112D45C0F500979BA5 /* morphine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AE32D45C0F500979BA5 /* morphine.pdf */; };
+		29F35B122D45C0F500979BA5 /* narcan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AE42D45C0F500979BA5 /* narcan.pdf */; };
+		29F35B132D45C0F500979BA5 /* nicardipine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AE52D45C0F500979BA5 /* nicardipine.pdf */; };
+		29F35B142D45C0F500979BA5 /* nitroglycerin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AE62D45C0F500979BA5 /* nitroglycerin.pdf */; };
+		29F35B152D45C0F500979BA5 /* norepinephrine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AE72D45C0F500979BA5 /* norepinephrine.pdf */; };
+		29F35B162D45C0F500979BA5 /* oxytocin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AE82D45C0F500979BA5 /* oxytocin.pdf */; };
+		29F35B172D45C0F500979BA5 /* phenylephrine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AE92D45C0F500979BA5 /* phenylephrine.pdf */; };
+		29F35B182D45C0F500979BA5 /* promethazine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AEA2D45C0F500979BA5 /* promethazine.pdf */; };
+		29F35B192D45C0F500979BA5 /* rocuronium.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AEB2D45C0F500979BA5 /* rocuronium.pdf */; };
+		29F35B1A2D45C0F500979BA5 /* sodiumBicarbonate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AEC2D45C0F500979BA5 /* sodiumBicarbonate.pdf */; };
+		29F35B1B2D45C0F500979BA5 /* succinylcholine.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AED2D45C0F500979BA5 /* succinylcholine.pdf */; };
+		29F35B1C2D45C0F500979BA5 /* toradol.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AEE2D45C0F500979BA5 /* toradol.pdf */; };
+		29F35B1D2D45C0F500979BA5 /* tranexamicAcid.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AEF2D45C0F500979BA5 /* tranexamicAcid.pdf */; };
+		29F35B1E2D45C0F500979BA5 /* vecuronium.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AF02D45C0F500979BA5 /* vecuronium.pdf */; };
+		29F35B1F2D45C0F500979BA5 /* zofran.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29F35AF12D45C0F500979BA5 /* zofran.pdf */; };
+		29F35B202D45C0F500979BA5 /* Medications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F35AF32D45C0F500979BA5 /* Medications.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29F35AB42D45C07300979BA5 /* EMSProtocolApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMSProtocolApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F35AB72D45C07300979BA5 /* EMSProtocolAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMSProtocolAppApp.swift; sourceTree = "<group>"; };
+		29F35AB92D45C07300979BA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		29F35ABB2D45C07300979BA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29F35ABE2D45C07300979BA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29F35AC52D45C0F500979BA5 /* DrugCalculationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrugCalculationsView.swift; sourceTree = "<group>"; };
+		29F35AC62D45C0F500979BA5 /* EMSProtocolsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMSProtocolsView.swift; sourceTree = "<group>"; };
+		29F35AC72D45C0F500979BA5 /* EMSTreatmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMSTreatmentView.swift; sourceTree = "<group>"; };
+		29F35AC82D45C0F500979BA5 /* EMSProtocols.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = EMSProtocols.pdf; sourceTree = "<group>"; };
+		29F35ACA2D45C0F500979BA5 /* EMSProceduresView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMSProceduresView.swift; sourceTree = "<group>"; };
+		29F35ACB2D45C0F500979BA5 /* MedicationPDFsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationPDFsView.swift; sourceTree = "<group>"; };
+		29F35ACC2D45C0F500979BA5 /* adenosine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = adenosine.pdf; sourceTree = "<group>"; };
+		29F35ACD2D45C0F500979BA5 /* albuterol.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = albuterol.pdf; sourceTree = "<group>"; };
+		29F35ACE2D45C0F500979BA5 /* amiodarone.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = amiodarone.pdf; sourceTree = "<group>"; };
+		29F35ACF2D45C0F500979BA5 /* aspirin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = aspirin.pdf; sourceTree = "<group>"; };
+		29F35AD02D45C0F500979BA5 /* ativan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ativan.pdf; sourceTree = "<group>"; };
+		29F35AD12D45C0F500979BA5 /* atropine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = atropine.pdf; sourceTree = "<group>"; };
+		29F35AD22D45C0F500979BA5 /* atrovent.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = atrovent.pdf; sourceTree = "<group>"; };
+		29F35AD32D45C0F500979BA5 /* calcium.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = calcium.pdf; sourceTree = "<group>"; };
+		29F35AD42D45C0F500979BA5 /* cefazolin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = cefazolin.pdf; sourceTree = "<group>"; };
+		29F35AD52D45C0F500979BA5 /* d10.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = d10.pdf; sourceTree = "<group>"; };
+		29F35AD62D45C0F500979BA5 /* dexamethasone.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = dexamethasone.pdf; sourceTree = "<group>"; };
+		29F35AD72D45C0F500979BA5 /* diltiazem.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = diltiazem.pdf; sourceTree = "<group>"; };
+		29F35AD82D45C0F500979BA5 /* diphenhydramine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = diphenhydramine.pdf; sourceTree = "<group>"; };
+		29F35AD92D45C0F500979BA5 /* epinephrine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = epinephrine.pdf; sourceTree = "<group>"; };
+		29F35ADA2D45C0F500979BA5 /* etomidate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = etomidate.pdf; sourceTree = "<group>"; };
+		29F35ADB2D45C0F500979BA5 /* fentanyl.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = fentanyl.pdf; sourceTree = "<group>"; };
+		29F35ADC2D45C0F500979BA5 /* glucose.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = glucose.pdf; sourceTree = "<group>"; };
+		29F35ADD2D45C0F500979BA5 /* hydromorphone.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = hydromorphone.pdf; sourceTree = "<group>"; };
+		29F35ADE2D45C0F500979BA5 /* ketamine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ketamine.pdf; sourceTree = "<group>"; };
+		29F35ADF2D45C0F500979BA5 /* labetalol.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = labetalol.pdf; sourceTree = "<group>"; };
+		29F35AE02D45C0F500979BA5 /* magnesiumSulfate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = magnesiumSulfate.pdf; sourceTree = "<group>"; };
+		29F35AE12D45C0F500979BA5 /* methylprednisolone.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = methylprednisolone.pdf; sourceTree = "<group>"; };
+		29F35AE22D45C0F500979BA5 /* midazolam.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = midazolam.pdf; sourceTree = "<group>"; };
+		29F35AE32D45C0F500979BA5 /* morphine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = morphine.pdf; sourceTree = "<group>"; };
+		29F35AE42D45C0F500979BA5 /* narcan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = narcan.pdf; sourceTree = "<group>"; };
+		29F35AE52D45C0F500979BA5 /* nicardipine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = nicardipine.pdf; sourceTree = "<group>"; };
+		29F35AE62D45C0F500979BA5 /* nitroglycerin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = nitroglycerin.pdf; sourceTree = "<group>"; };
+		29F35AE72D45C0F500979BA5 /* norepinephrine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = norepinephrine.pdf; sourceTree = "<group>"; };
+		29F35AE82D45C0F500979BA5 /* oxytocin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = oxytocin.pdf; sourceTree = "<group>"; };
+		29F35AE92D45C0F500979BA5 /* phenylephrine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = phenylephrine.pdf; sourceTree = "<group>"; };
+		29F35AEA2D45C0F500979BA5 /* promethazine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = promethazine.pdf; sourceTree = "<group>"; };
+		29F35AEB2D45C0F500979BA5 /* rocuronium.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = rocuronium.pdf; sourceTree = "<group>"; };
+		29F35AEC2D45C0F500979BA5 /* sodiumBicarbonate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sodiumBicarbonate.pdf; sourceTree = "<group>"; };
+		29F35AED2D45C0F500979BA5 /* succinylcholine.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = succinylcholine.pdf; sourceTree = "<group>"; };
+		29F35AEE2D45C0F500979BA5 /* toradol.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = toradol.pdf; sourceTree = "<group>"; };
+		29F35AEF2D45C0F500979BA5 /* tranexamicAcid.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = tranexamicAcid.pdf; sourceTree = "<group>"; };
+		29F35AF02D45C0F500979BA5 /* vecuronium.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = vecuronium.pdf; sourceTree = "<group>"; };
+		29F35AF12D45C0F500979BA5 /* zofran.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = zofran.pdf; sourceTree = "<group>"; };
+		29F35AF32D45C0F500979BA5 /* Medications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medications.swift; sourceTree = "<group>"; };
+		29F35B212D45E04300979BA5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29F35AB12D45C07300979BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29F35AAB2D45C07300979BA5 = {
+			isa = PBXGroup;
+			children = (
+				29F35B212D45E04300979BA5 /* README.md */,
+				29F35AB62D45C07300979BA5 /* EMSProtocolApp */,
+				29F35AB52D45C07300979BA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29F35AB52D45C07300979BA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29F35AB42D45C07300979BA5 /* EMSProtocolApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29F35AB62D45C07300979BA5 /* EMSProtocolApp */ = {
+			isa = PBXGroup;
+			children = (
+				29F35AC52D45C0F500979BA5 /* DrugCalculationsView.swift */,
+				29F35AC92D45C0F500979BA5 /* EMS Protocols */,
+				29F35ACA2D45C0F500979BA5 /* EMSProceduresView.swift */,
+				29F35AC62D45C0F500979BA5 /* EMSProtocolsView.swift */,
+				29F35AC72D45C0F500979BA5 /* EMSTreatmentView.swift */,
+				29F35ACB2D45C0F500979BA5 /* MedicationPDFsView.swift */,
+				29F35AF22D45C0F500979BA5 /* Medications */,
+				29F35AF32D45C0F500979BA5 /* Medications.swift */,
+				29F35AB72D45C07300979BA5 /* EMSProtocolAppApp.swift */,
+				29F35AB92D45C07300979BA5 /* ContentView.swift */,
+				29F35ABB2D45C07300979BA5 /* Assets.xcassets */,
+				29F35ABD2D45C07300979BA5 /* Preview Content */,
+			);
+			path = EMSProtocolApp;
+			sourceTree = "<group>";
+		};
+		29F35ABD2D45C07300979BA5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				29F35ABE2D45C07300979BA5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29F35AC92D45C0F500979BA5 /* EMS Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				29F35AC82D45C0F500979BA5 /* EMSProtocols.pdf */,
+			);
+			path = "EMS Protocols";
+			sourceTree = "<group>";
+		};
+		29F35AF22D45C0F500979BA5 /* Medications */ = {
+			isa = PBXGroup;
+			children = (
+				29F35ACC2D45C0F500979BA5 /* adenosine.pdf */,
+				29F35ACD2D45C0F500979BA5 /* albuterol.pdf */,
+				29F35ACE2D45C0F500979BA5 /* amiodarone.pdf */,
+				29F35ACF2D45C0F500979BA5 /* aspirin.pdf */,
+				29F35AD02D45C0F500979BA5 /* ativan.pdf */,
+				29F35AD12D45C0F500979BA5 /* atropine.pdf */,
+				29F35AD22D45C0F500979BA5 /* atrovent.pdf */,
+				29F35AD32D45C0F500979BA5 /* calcium.pdf */,
+				29F35AD42D45C0F500979BA5 /* cefazolin.pdf */,
+				29F35AD52D45C0F500979BA5 /* d10.pdf */,
+				29F35AD62D45C0F500979BA5 /* dexamethasone.pdf */,
+				29F35AD72D45C0F500979BA5 /* diltiazem.pdf */,
+				29F35AD82D45C0F500979BA5 /* diphenhydramine.pdf */,
+				29F35AD92D45C0F500979BA5 /* epinephrine.pdf */,
+				29F35ADA2D45C0F500979BA5 /* etomidate.pdf */,
+				29F35ADB2D45C0F500979BA5 /* fentanyl.pdf */,
+				29F35ADC2D45C0F500979BA5 /* glucose.pdf */,
+				29F35ADD2D45C0F500979BA5 /* hydromorphone.pdf */,
+				29F35ADE2D45C0F500979BA5 /* ketamine.pdf */,
+				29F35ADF2D45C0F500979BA5 /* labetalol.pdf */,
+				29F35AE02D45C0F500979BA5 /* magnesiumSulfate.pdf */,
+				29F35AE12D45C0F500979BA5 /* methylprednisolone.pdf */,
+				29F35AE22D45C0F500979BA5 /* midazolam.pdf */,
+				29F35AE32D45C0F500979BA5 /* morphine.pdf */,
+				29F35AE42D45C0F500979BA5 /* narcan.pdf */,
+				29F35AE52D45C0F500979BA5 /* nicardipine.pdf */,
+				29F35AE62D45C0F500979BA5 /* nitroglycerin.pdf */,
+				29F35AE72D45C0F500979BA5 /* norepinephrine.pdf */,
+				29F35AE82D45C0F500979BA5 /* oxytocin.pdf */,
+				29F35AE92D45C0F500979BA5 /* phenylephrine.pdf */,
+				29F35AEA2D45C0F500979BA5 /* promethazine.pdf */,
+				29F35AEB2D45C0F500979BA5 /* rocuronium.pdf */,
+				29F35AEC2D45C0F500979BA5 /* sodiumBicarbonate.pdf */,
+				29F35AED2D45C0F500979BA5 /* succinylcholine.pdf */,
+				29F35AEE2D45C0F500979BA5 /* toradol.pdf */,
+				29F35AEF2D45C0F500979BA5 /* tranexamicAcid.pdf */,
+				29F35AF02D45C0F500979BA5 /* vecuronium.pdf */,
+				29F35AF12D45C0F500979BA5 /* zofran.pdf */,
+			);
+			path = Medications;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29F35AB32D45C07300979BA5 /* EMSProtocolApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F35AC22D45C07300979BA5 /* Build configuration list for PBXNativeTarget "EMSProtocolApp" */;
+			buildPhases = (
+				29F35AB02D45C07300979BA5 /* Sources */,
+				29F35AB12D45C07300979BA5 /* Frameworks */,
+				29F35AB22D45C07300979BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMSProtocolApp;
+			productName = EMSProtocolApp;
+			productReference = 29F35AB42D45C07300979BA5 /* EMSProtocolApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29F35AAC2D45C07300979BA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					29F35AB32D45C07300979BA5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 29F35AAF2D45C07300979BA5 /* Build configuration list for PBXProject "EMSProtocolApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29F35AAB2D45C07300979BA5;
+			productRefGroup = 29F35AB52D45C07300979BA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29F35AB32D45C07300979BA5 /* EMSProtocolApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29F35AB22D45C07300979BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F35B052D45C0F500979BA5 /* diltiazem.pdf in Resources */,
+				29F35B0A2D45C0F500979BA5 /* glucose.pdf in Resources */,
+				29F35AF72D45C0F500979BA5 /* EMSProtocols.pdf in Resources */,
+				29F35B1D2D45C0F500979BA5 /* tranexamicAcid.pdf in Resources */,
+				29F35B002D45C0F500979BA5 /* atrovent.pdf in Resources */,
+				29F35B032D45C0F500979BA5 /* d10.pdf in Resources */,
+				29F35B0B2D45C0F500979BA5 /* hydromorphone.pdf in Resources */,
+				29F35B0E2D45C0F500979BA5 /* magnesiumSulfate.pdf in Resources */,
+				29F35B1F2D45C0F500979BA5 /* zofran.pdf in Resources */,
+				29F35B062D45C0F500979BA5 /* diphenhydramine.pdf in Resources */,
+				29F35B182D45C0F500979BA5 /* promethazine.pdf in Resources */,
+				29F35B0D2D45C0F500979BA5 /* labetalol.pdf in Resources */,
+				29F35AFC2D45C0F500979BA5 /* amiodarone.pdf in Resources */,
+				29F35B012D45C0F500979BA5 /* calcium.pdf in Resources */,
+				29F35B152D45C0F500979BA5 /* norepinephrine.pdf in Resources */,
+				29F35ABF2D45C07300979BA5 /* Preview Assets.xcassets in Resources */,
+				29F35B072D45C0F500979BA5 /* epinephrine.pdf in Resources */,
+				29F35B102D45C0F500979BA5 /* midazolam.pdf in Resources */,
+				29F35AFB2D45C0F500979BA5 /* albuterol.pdf in Resources */,
+				29F35B0C2D45C0F500979BA5 /* ketamine.pdf in Resources */,
+				29F35B1E2D45C0F500979BA5 /* vecuronium.pdf in Resources */,
+				29F35B1C2D45C0F500979BA5 /* toradol.pdf in Resources */,
+				29F35B162D45C0F500979BA5 /* oxytocin.pdf in Resources */,
+				29F35B172D45C0F500979BA5 /* phenylephrine.pdf in Resources */,
+				29F35ABC2D45C07300979BA5 /* Assets.xcassets in Resources */,
+				29F35B082D45C0F500979BA5 /* etomidate.pdf in Resources */,
+				29F35AFF2D45C0F500979BA5 /* atropine.pdf in Resources */,
+				29F35B022D45C0F500979BA5 /* cefazolin.pdf in Resources */,
+				29F35B142D45C0F500979BA5 /* nitroglycerin.pdf in Resources */,
+				29F35B132D45C0F500979BA5 /* nicardipine.pdf in Resources */,
+				29F35B112D45C0F500979BA5 /* morphine.pdf in Resources */,
+				29F35B0F2D45C0F500979BA5 /* methylprednisolone.pdf in Resources */,
+				29F35B1A2D45C0F500979BA5 /* sodiumBicarbonate.pdf in Resources */,
+				29F35AFE2D45C0F500979BA5 /* ativan.pdf in Resources */,
+				29F35B042D45C0F500979BA5 /* dexamethasone.pdf in Resources */,
+				29F35B092D45C0F500979BA5 /* fentanyl.pdf in Resources */,
+				29F35B192D45C0F500979BA5 /* rocuronium.pdf in Resources */,
+				29F35B1B2D45C0F500979BA5 /* succinylcholine.pdf in Resources */,
+				29F35B122D45C0F500979BA5 /* narcan.pdf in Resources */,
+				29F35AFD2D45C0F500979BA5 /* aspirin.pdf in Resources */,
+				29F35AFA2D45C0F500979BA5 /* adenosine.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29F35AB02D45C07300979BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F35AF82D45C0F500979BA5 /* EMSProceduresView.swift in Sources */,
+				29F35ABA2D45C07300979BA5 /* ContentView.swift in Sources */,
+				29F35AF62D45C0F500979BA5 /* EMSTreatmentView.swift in Sources */,
+				29F35AF42D45C0F500979BA5 /* DrugCalculationsView.swift in Sources */,
+				29F35B202D45C0F500979BA5 /* Medications.swift in Sources */,
+				29F35AF52D45C0F500979BA5 /* EMSProtocolsView.swift in Sources */,
+				29F35AF92D45C0F500979BA5 /* MedicationPDFsView.swift in Sources */,
+				29F35AB82D45C07300979BA5 /* EMSProtocolAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		29F35AC02D45C07300979BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29F35AC12D45C07300979BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29F35AC32D45C07300979BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EMSProtocolApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewburrell.EMSProtocolApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29F35AC42D45C07300979BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EMSProtocolApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewburrell.EMSProtocolApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29F35AAF2D45C07300979BA5 /* Build configuration list for PBXProject "EMSProtocolApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F35AC02D45C07300979BA5 /* Debug */,
+				29F35AC12D45C07300979BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29F35AC22D45C07300979BA5 /* Build configuration list for PBXNativeTarget "EMSProtocolApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F35AC32D45C07300979BA5 /* Debug */,
+				29F35AC42D45C07300979BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29F35AAC2D45C07300979BA5 /* Project object */;
+}
