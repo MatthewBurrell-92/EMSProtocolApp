@@ -12,7 +12,7 @@ import PDFKit
 
 struct ContentView: View {
     @State private var showMedications = false
-    @State var weight = " "
+    @State var weight = " " // unused at this time.
     
     // This defines the body
     var body: some View {
@@ -42,12 +42,14 @@ struct ContentView: View {
         ContentView()
     }
 
+// This is used for opening the PDF files.
 struct PDFKitView: UIViewRepresentable
 {
-    var url: URL
+    var url: URL // URL relates to the name and location of the file.
     func makeUIView(context: Context) -> PDFView
     {
-        let pdfView = PDFView()
+        let pdfView = PDFView() // creates a new view, which will superimpose
+        // over the current view in the app.
         if let document = PDFDocument(url: url)
         {
             pdfView.document = document
