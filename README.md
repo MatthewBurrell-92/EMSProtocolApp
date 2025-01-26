@@ -7,7 +7,7 @@ The purpose of this app is to make the jobs of my coworkers easier. Our EMS prot
 The app, as it is is very rudamentary. I have not put much effort into the visual aspects of the app, opting to focus on the inner workings of the app.
 
 Below is a link to a YouTube video, where I explain the app.
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/PEZkJzDAs6o)
 
 # Development Environment
 
